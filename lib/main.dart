@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:world_history_card/db/database.dart';
 import 'package:world_history_card/screen/home_screen.dart';
 
-void main() => runApp(MyApp());
+late MyDatabase database;
+void main() {
+
+  runApp(MyApp());
+  database = MyDatabase();
+}
+
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
