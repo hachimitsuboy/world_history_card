@@ -9,6 +9,7 @@ class WordListScreen extends StatefulWidget {
 }
 
 class _WordListScreenState extends State<WordListScreen> {
+
   @override
   Widget build(BuildContext context) {
     return WillPopScope( //WillPopScopeではonWillPopで
